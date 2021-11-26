@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.svg'
+import Chart from './chart'
 import './App.css'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           </a>
         </p>
       </header>
+      <Chart />
     </div>
   )
 }
